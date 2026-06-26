@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Técnico | Análisis Post-Mortem</title>
+
+<style>
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f4f4f4;
+margin:0;
+color:#333;
+line-height:1.7;
+}
+
+header{
+background:#111827;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+main{
+max-width:950px;
+margin:auto;
+padding:40px 20px;
+}
+
+section{
+background:white;
+padding:30px;
+margin-bottom:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+h2{
+color:#1d4ed8;
+margin-top:0;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+.tag{
+display:inline-block;
+background:#dbeafe;
+padding:6px 12px;
+border-radius:30px;
+margin:5px;
+font-size:14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Cómo resolvimos un problema de impresión de etiquetas</h1>
+
+<p>
+Análisis Post-Mortem | Comunicación Técnica | Mejora Continua
+</p>
+
+</header>
+
+<main>
+
+<section>
+
+<h2>Contexto</h2>
+
+<p>
+
+Durante el desarrollo de un proyecto de impresión de etiquetas para productos dermocosméticos, surgieron inconvenientes que impedían imprimir correctamente utilizando una impresora térmica XP-470B.
+
+El objetivo era generar etiquetas profesionales para la línea de productos manteniendo una calidad de impresión adecuada y un flujo de trabajo repetible.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Problema</h2>
+
+<p>
+
+La impresora presentaba errores de configuración y compatibilidad con el controlador instalado, generando fallas durante la impresión y dificultando la producción de etiquetas.
+
+Esto provocó retrasos en el proceso y la necesidad de investigar distintas alternativas antes de encontrar una solución estable.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Acciones realizadas</h2>
+
+<ul>
+
+<li>Verificación del controlador instalado.</li>
+
+<li>Revisión de la configuración del tamaño de etiquetas.</li>
+
+<li>Pruebas con distintos formatos de impresión.</li>
+
+<li>Actualización de parámetros de impresión.</li>
+
+<li>Validación del resultado con múltiples pruebas.</li>
+
+<li>Documentación de cada cambio realizado.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Post-Mortem Constructivo</h2>
+
+<p>
+
+En lugar de buscar responsables, el análisis se enfocó en comprender las causas del problema.
+
+Se detectó que la combinación entre configuración del controlador, formato de impresión y parámetros de la impresora generaba el comportamiento inesperado.
+
+Documentar cada prueba permitió reducir el tiempo de diagnóstico y construir un procedimiento reutilizable para futuras instalaciones.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Aprendizajes</h2>
+
+<ul>
+
+<li>La documentación reduce significativamente el tiempo de resolución.</li>
+
+<li>Registrar cada hipótesis evita repetir pruebas innecesarias.</li>
+
+<li>Una comunicación clara facilita la colaboración entre personas técnicas y no técnicas.</li>
+
+<li>Los procedimientos estandarizados mejoran la calidad del trabajo futuro.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Aplicación de Radical Candor</h2>
+
+<p>
+
+Durante todo el proceso se priorizó un feedback respetuoso y orientado al aprendizaje.
+
+Las decisiones se discutieron basándose en evidencia técnica y documentación, evitando atribuir responsabilidades personales.
+
+Este enfoque permitió mantener un ambiente colaborativo y favoreció la mejora continua.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Tecnologías y herramientas utilizadas</h2>
+
+<div class="tag">GitHub</div>
+<div class="tag">GitHub Pages</div>
+<div class="tag">HTML</div>
+<div class="tag">Control de Versiones</div>
+<div class="tag">Documentación Técnica</div>
+<div class="tag">Post-Mortem</div>
+
+</section>
+
+<footer>
+
+<p>
+
+Entrega Final — Coderhouse<br>
+
+Blog Técnico desarrollado por Luis Cosentino
+
+</p>
+
+</footer>
+
+</body>
+</html>
